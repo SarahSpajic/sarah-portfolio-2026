@@ -2,7 +2,7 @@ export default function Nav() {
   return (
     <nav className="nav">
       <div className="nav-container">
-        <a href="#" className="nav-logo">SS</a>
+        <a href="#" className="nav-logo">S</a>
         <div className="nav-links">
           <a href="#work">Work</a>
           <a href="#about">About</a>
