@@ -3,11 +3,12 @@ export default function Contact() {
     <section className="contact" id="contact">
       <div className="section-container">
         <span className="section-label">Get in Touch</span>
-        <h2 className="section-title">Let's work together</h2>
+        <h2 className="section-title">Let's build something meaningful</h2>
         <p className="contact-description">
-          I'm looking for a remote frontend position where I can focus on building 
-          user interfaces with React and TypeScript. If you're hiring or just want 
-          to connect, I'd love to hear from you.
+          I am looking for frontend roles in healthcare technology where I can 
+          apply my React and accessibility expertise to improve patient experiences. 
+          If you are working on health tech or just want to connect, I would love 
+          to hear from you.
         </p>
         <div className="contact-links">
           <a href="mailto:sarahspajic@gmail.com" className="btn btn-primary btn-lg">

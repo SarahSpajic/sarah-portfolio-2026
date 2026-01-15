@@ -1,32 +1,31 @@
 const projects = [
   {
     id: 1,
-    company: "Credit One Bank",
-    role: "Frontend Developer",
-    description: "Built and maintained a React component library for the enterprise website, enabling marketing teams to launch campaigns faster while maintaining brand consistency. Integrated React components into Adobe Experience Manager and implemented WCAG 2.1 accessibility standards with automated Playwright testing.",
-    tags: ["React", "Component Library", "Adobe AEM", "WCAG"],
-    duration: "2+ years",
-    extra: "Scrum Master",
+    company: "Georgia Tech",
+    role: "Digital Health Research",
+    description: "Pursuing an MS in Computer Science with a Human-Computer Interaction specialization. Studying Digital Health Equity and Health Informatics, researching how users form mental models when interacting with health technology and wearable devices.",
+    tags: ["Health Informatics", "Digital Health Equity", "HCI", "User Research"],
+    duration: "In Progress",
     featured: true,
     gradient: "gradient-1"
   },
   {
     id: 2,
-    company: "The Shipping Store",
-    role: "Label Templates Page",
-    description: "Built a label templates page from scratch for an e-commerce platform. Added search functionality that users previously lacked, and created how-to videos and troubleshooting guides to reduce customer support load.",
-    tags: ["React", "Freelance", "E-commerce"],
-    duration: "2023 - 2025",
+    company: "Credit One Bank",
+    role: "Frontend Developer",
+    description: "Built and maintained a React component library for the enterprise website. Implemented WCAG 2.1 accessibility standards with automated Playwright testing. These skills in accessible, scalable UI systems directly translate to healthcare applications where usability is critical.",
+    tags: ["React", "Accessibility", "Component Library", "Scrum Master"],
+    duration: "2+ years",
     featured: false,
     gradient: "gradient-2"
   },
   {
     id: 3,
-    company: "Georgia Tech",
-    role: "Graduate Research",
-    description: "Pursuing a Master's in Computer Science with a Human-Computer Interaction specialization. Currently studying Digital Health Equity and Health Informatics, researching how users form mental models when switching between wearable devices.",
-    tags: ["MS Computer Science", "HCI"],
-    duration: "In Progress",
+    company: "The Shipping Store",
+    role: "Frontend Developer",
+    description: "Built a label templates page from scratch, adding search functionality and creating self-service troubleshooting resources. Focused on reducing friction and improving user experience for non-technical users.",
+    tags: ["React", "UX Improvement", "User Documentation"],
+    duration: "2023 - 2025",
     featured: false,
     gradient: "gradient-3"
   }
@@ -37,7 +36,7 @@ export default function Work() {
     <section className="work" id="work">
       <div className="section-container">
         <span className="section-label">Experience</span>
-        <h2 className="section-title">Where I've made an impact</h2>
+        <h2 className="section-title">Building toward healthcare</h2>
         
         <div className="projects-grid">
           {projects.map((project) => (
@@ -68,17 +67,6 @@ export default function Work() {
                     </svg>
                     {project.duration}
                   </span>
-                  {project.extra && (
-                    <span className="meta-item">
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                        <circle cx="9" cy="7" r="4"></circle>
-                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                      </svg>
-                      {project.extra}
-                    </span>
-                  )}
                 </div>
               </div>
             </article>
