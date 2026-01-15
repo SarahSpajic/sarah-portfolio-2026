@@ -18,7 +18,7 @@ export default function Contact() {
               <polyline points="22,6 12,13 2,6"/>
             </svg>
           </a>
-          <a href="https://linkedin.com/in/sarahspajic" target="_blank" rel="noopener noreferrer" className="btn btn-glass btn-lg">
+          <a href="https://linkedin.com/in/sarah-spajic" target="_blank" rel="noopener noreferrer" className="btn btn-glass btn-lg">
             LinkedIn
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
