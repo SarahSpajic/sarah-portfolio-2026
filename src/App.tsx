@@ -1,13 +1,16 @@
-import { useEffect } from 'react';
+import { useEffect, useMemo } from 'react';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 import Work from './components/Work';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { getVariant, type SiteVariant } from './variants';
 import './App.css';
 
 export default function App() {
+  const variant: SiteVariant = useMemo(() => getVariant(), []);
+
   useEffect(() => {
     const handleSmoothScroll = (e: MouseEvent) => {
       const target = e.target as HTMLAnchorElement;
@@ -30,10 +33,10 @@ export default function App() {
     <>
       <Nav />
       <main>
-        <Hero />
+        <Hero variant={variant} />
         <Work />
-        <About />
-        <Contact />
+        <About variant={variant} />
+        <Contact variant={variant} />
       </main>
       <Footer />
     </>

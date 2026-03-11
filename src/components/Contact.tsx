@@ -1,15 +1,16 @@
-export default function Contact() {
+import type { SiteVariant } from '../variants';
+
+interface ContactProps {
+  variant: SiteVariant;
+}
+
+export default function Contact({ variant }: ContactProps) {
   return (
     <section className="contact" id="contact">
       <div className="section-container">
         <span className="section-label">Get in Touch</span>
-        <h2 className="section-title">Let's build something meaningful</h2>
-        <p className="contact-description">
-          I am looking for frontend roles in healthcare technology where I can 
-          apply my React and accessibility expertise to improve patient experiences. 
-          If you are working on health tech or just want to connect, I would love 
-          to hear from you.
-        </p>
+        <h2 className="section-title">{variant.contactHeadline}</h2>
+        <p className="contact-description">{variant.contactDescription}</p>
         <div className="contact-links">
           <a href="mailto:sarahspajic@gmail.com" className="btn btn-primary btn-lg">
             Send an Email
