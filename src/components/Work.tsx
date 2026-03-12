@@ -34,7 +34,7 @@ const experiences: Experience[] = [
     id: 'freelance',
     company: 'The Shipping Store',
     role: 'Freelance Web Developer',
-    duration: 'Sept 2023 \u2013 Present',
+    duration: 'Sept 2023 \u2013 Jan 2025',
     location: 'Remote',
     summary:
       'Created a user-friendly web experience for a shipping company, improving the label design process and boosting customer satisfaction through responsive design and self-service documentation.',

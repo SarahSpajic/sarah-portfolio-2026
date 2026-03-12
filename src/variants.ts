@@ -138,7 +138,7 @@ export const variants: Record<VariantKey, SiteVariant> = {
     ],
     contactHeadline: "Let's connect",
     contactDescription:
-      `I'm actively looking for BA, Scrum Master, and PM-track roles in Las Vegas or remote. If you're working on something meaningful and need someone who can bridge business and technology, I'd love to hear from you.`,
+      `I care about how people actually experience the things I build. That instinct runs through everything I do, whether it's writing code, gathering requirements, or running a sprint. With a background in web development, business analysis, and a graduate focus in Human-Computer Interaction, I bring both technical skill and a genuine focus on the end user. Based in Las Vegas, open to remote.`,
     floatingCards: [
       { icon: '📋', label: 'Requirements' },
       { icon: '🔄', label: 'Process Design' },
