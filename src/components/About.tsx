@@ -12,9 +12,9 @@ export default function About({ variant }: AboutProps) {
           <div className="about-content">
             <span className="section-label">About Me</span>
             <h2 className="section-title">{variant.aboutHeadline}</h2>
-            <p>{variant.aboutP1}</p>
-            <p>{variant.aboutP2}</p>
-            <p>{variant.aboutP3}</p>
+            {variant.aboutP1 && <p>{variant.aboutP1}</p>}
+            {variant.aboutP2 && <p>{variant.aboutP2}</p>}
+            {variant.aboutP3 && <p>{variant.aboutP3}</p>}
             <div className="skills-grid">
               <div className="skill-category">
                 <h4>Core Skills</h4>

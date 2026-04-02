@@ -24,14 +24,12 @@ export const variants: Record<VariantKey, SiteVariant> = {
     badge: 'Business Analyst • Process Improvement • HCI Specialist',
     headline: 'Turning Complex Systems into Clear, Human-Centered Solutions',
     description:
-      'I translate ambiguous business problems into structured requirements, streamlined processes, and measurable outcomes. MS in Computer Science (HCI) candidate at Georgia Tech, with 5+ years bridging technical teams and business stakeholders.',
+      'I translate ambiguous business problems into structured requirements, streamlined processes, and measurable outcomes.',
     aboutHeadline: 'Analyst mindset, human-centered focus',
     aboutP1:
-      'My career started in QA and UAT at Credit One Bank — I was the person asking "but what does the user actually need?" before that became a formal part of anyone\'s job description. That instinct drove me toward business analysis, where I spent years translating stakeholder needs into traceable requirements, prioritized backlogs, and working software.',
-    aboutP2:
-      `Now I'm layering that foundation with formal HCI training at Georgia Tech. My coursework in Digital Health Equity and Health Informatics has sharpened how I think about usability, mental models, and the downstream consequences of design decisions — especially in regulated, high-stakes environments.`,
-    aboutP3:
-      `I'm looking for BA, analyst, or process improvement roles where technical fluency and a human-centered lens are both assets, not trade-offs.`,
+      'I started in QA and UAT at Credit One Bank, where I naturally gravitated toward asking "what does the user actually need?" That instinct led me into business analysis, and now I\'m sharpening it with formal HCI training at Georgia Tech, focused on usability, mental models, and design decisions in regulated environments.',
+    aboutP2: '',
+    aboutP3: '',
     frontendSkills: ['Requirements Gathering', 'Process Mapping', 'UAT & QA', 'Stakeholder Management'],
     domainSkills: ['User Story Authoring', 'Root Cause Analysis', 'WCAG 2.1 Compliance', 'Jira / Confluence'],
     domainSkillsLabel: 'Analysis + Tools',
@@ -42,7 +40,7 @@ export const variants: Record<VariantKey, SiteVariant> = {
     ],
     contactHeadline: "Let's solve a hard problem together",
     contactDescription:
-      `I bring structured thinking, strong stakeholder communication, and a genuine curiosity about how systems — and the people inside them — actually work. If you're hiring for BA, analyst, or process improvement roles in Las Vegas or remote, I'd love to connect.`,
+      `Based in Las Vegas, open to remote. If you're hiring for BA, analyst, or process improvement roles, I'd love to connect.`,
     floatingCards: [
       { icon: '📋', label: 'Requirements' },
       { icon: '🔄', label: 'Process Design' },
@@ -50,20 +48,18 @@ export const variants: Record<VariantKey, SiteVariant> = {
     ],
   },
 
-  // /work — Scrum Master (Curaleaf, gaming/tech)
+  // /work - Scrum Master (Curaleaf, gaming/tech)
   work: {
     key: 'work',
     badge: 'Scrum Master • CSPO • CSM • CSD • Agile Coach',
     headline: 'Agile Leadership That Keeps Teams Focused and Stakeholders Informed',
     description:
-      'I run tight ceremonies, remove blockers before they become fires, and coach teams toward sustainable velocity. CSM, CSPO, and CSD certified, with years of hands-on Scrum experience in regulated tech environments.',
+      'I run tight ceremonies, remove blockers before they become fires, and coach teams toward sustainable velocity.',
     aboutHeadline: 'Servant leadership, not just stand-ups',
     aboutP1:
-      `I grew into Scrum Master work from the inside — I was the BA and UAT analyst who noticed that blockers were going unaddressed, sprint goals were fuzzy, and retrospectives were becoming a formality. So I stepped in. I coached teams on Fibonacci estimation, facilitated backlog refinement that actually refined, and started tracking velocity so we could have honest capacity conversations.`,
-    aboutP2:
-      `That experience — plus my CSPO, CSM, and CSD certifications — gives me a credible read on both the business priorities and the technical realities of a sprint. I can translate between product owners and engineering teams because I've sat on both sides of that table.`,
-    aboutP3:
-      `I'm pursuing my MS at Georgia Tech with a focus on Human-Computer Interaction. The HCI lens makes me a better Scrum Master — I pay attention to how people actually work, not just the process they're supposed to follow.`,
+      `I grew into Scrum Master work from the inside, starting as a BA and UAT analyst who noticed blockers going unaddressed and retrospectives becoming a formality. My CSPO, CSM, and CSD certifications, combined with an MS in HCI at Georgia Tech, give me a credible read on both business priorities and the technical realities of a sprint.`,
+    aboutP2: '',
+    aboutP3: '',
     frontendSkills: ['Sprint Facilitation', 'Backlog Refinement', 'Impediment Removal', 'Velocity Tracking'],
     domainSkills: ['Scrum / Kanban', 'Stakeholder Reporting', 'Burndown Analysis', 'Jira / Confluence'],
     domainSkillsLabel: 'Agile + Tools',
@@ -74,7 +70,7 @@ export const variants: Record<VariantKey, SiteVariant> = {
     ],
     contactHeadline: "Let's build a team that actually ships",
     contactDescription:
-      `I'm looking for Scrum Master or Agile Lead roles where I can bring structure without bureaucracy and coaching without micromanagement. If your team needs someone who can hold the process AND understand the product, let's talk.`,
+      `Looking for Scrum Master or Agile Lead roles. Based in Las Vegas, open to remote.`,
     floatingCards: [
       { icon: '🏃', label: 'Scrum' },
       { icon: '📊', label: 'Velocity' },
@@ -82,20 +78,18 @@ export const variants: Record<VariantKey, SiteVariant> = {
     ],
   },
 
-  // /hello — Product Manager (MGM, gaming/tech)
+  // /hello - Product Manager (MGM, gaming/tech)
   hello: {
     key: 'hello',
     badge: 'Associate Product Manager • HCI Specialist • BA',
     headline: 'Product Thinking Grounded in User Research and Business Value',
     description:
-      'I connect user needs to business outcomes through structured discovery, clear requirements, and cross-functional alignment. Pursuing an MS in HCI at Georgia Tech, with a background in enterprise BA and Agile product delivery.',
+      'I connect user needs to business outcomes through structured discovery, clear requirements, and cross-functional alignment.',
     aboutHeadline: 'Where research meets roadmap',
     aboutP1:
-      `My path to product management runs through business analysis, UAT, and a deep curiosity about why users behave the way they do — not just what they click. At Credit One Bank, I managed a backlog of 200+ use cases for a SaaS implementation, prioritizing by urgency and severity, running cross-functional discovery sessions, and keeping stakeholders across the enterprise aligned through every sprint.`,
-    aboutP2:
-      `My MS work at Georgia Tech in Human-Computer Interaction has sharpened how I think about discovery research, usability tradeoffs, and the mental models that users bring to a product. I believe the best PMs are grounded in evidence — qualitative and quantitative — not just instinct.`,
-    aboutP3:
-      `I'm looking for APM or PM-track roles where the product has meaningful impact and where I can grow from structured discovery through to launch ownership.`,
+      `My path to product management runs through business analysis, UAT, and a curiosity about why users behave the way they do. At Credit One Bank I managed 200+ use cases for a SaaS implementation, and my MS in HCI at Georgia Tech has sharpened how I think about discovery research, usability tradeoffs, and the mental models users bring to a product.`,
+    aboutP2: '',
+    aboutP3: '',
     frontendSkills: ['Product Discovery', 'Roadmap Prioritization', 'User Story Authoring', 'Stakeholder Alignment'],
     domainSkills: ['HCI / UX Research', 'A/B Framing', 'Backlog Management', 'Jira / Confluence'],
     domainSkillsLabel: 'Product + Research',
@@ -106,7 +100,7 @@ export const variants: Record<VariantKey, SiteVariant> = {
     ],
     contactHeadline: "Let's talk product",
     contactDescription:
-      `I'm actively looking for Associate PM or PM-track roles in Las Vegas or remote, with preference for tech, gaming, or enterprise SaaS. If you're building something with real user impact and need someone who bridges research and delivery, I'd love to connect.`,
+      `Looking for APM or PM-track roles in Las Vegas or remote. If you're building something with real user impact, I'd love to connect.`,
     floatingCards: [
       { icon: '🗺️', label: 'Roadmap' },
       { icon: '🔬', label: 'User Research' },
@@ -114,35 +108,33 @@ export const variants: Record<VariantKey, SiteVariant> = {
     ],
   },
 
-  // Fallback (root / unknown paths — defaults to BA)
+  // Fallback (root / unknown paths - UX Engineer)
   default: {
     key: 'default',
-    badge: 'Business Analyst • HCI Specialist • Agile',
-    headline: 'Turning Complex Systems into Clear, Human-Centered Solutions',
+    badge: 'Web Design · Front-End Development · UI/UX',
+    headline: 'UX Engineer',
     description:
-      'I translate ambiguous business problems into structured requirements and measurable outcomes. MS in Computer Science (HCI) candidate at Georgia Tech, with 5+ years bridging technical teams and business stakeholders.',
-    aboutHeadline: 'Analyst mindset, human-centered focus',
+      'I design and build landing pages, email campaigns, and responsive web experiences from Figma through deployment.',
+    aboutHeadline: 'From concept to code, I own the full workflow',
     aboutP1:
-      'My career started in QA and UAT — I was the person asking "but what does the user actually need?" before that was anyone\'s formal job. That instinct led me toward business analysis, where I spent years translating stakeholder needs into traceable requirements and working software.',
-    aboutP2:
-      `Now I'm building on that with a formal HCI specialization at Georgia Tech, with coursework in Digital Health Equity and Health Informatics. I'm interested in roles where technical fluency and a human-centered lens are both valued.`,
-    aboutP3:
-      `I hold CSPO, CSM, CSD, ITIL, ISTQB, and CompTIA Project+ certifications, and I'm comfortable working across BA, Scrum, and PM-adjacent roles.`,
-    frontendSkills: ['Requirements Gathering', 'Process Mapping', 'UAT & QA', 'Stakeholder Management'],
-    domainSkills: ['User Story Authoring', 'Root Cause Analysis', 'WCAG 2.1 Compliance', 'Jira / Confluence'],
-    domainSkillsLabel: 'Analysis + Tools',
+      'I started in communications and business analysis, moved into front-end development building component libraries and design systems at Credit One Bank with React, TypeScript, and CSS3, and now I\'m completing an MS in Computer Science (HCI) at Georgia Tech. That arc gives me both the design eye and the technical execution to own projects end-to-end.',
+    aboutP2: '',
+    aboutP3: '',
+    frontendSkills: ['HTML5 / CSS3 / JavaScript', 'React / TypeScript', 'Responsive Design', 'Figma to Code'],
+    domainSkills: ['Landing Page Optimization', 'Email Campaign Design', 'WCAG Accessibility', 'Design Systems & CMS'],
+    domainSkillsLabel: 'Design + Strategy',
     stats: [
-      { value: '5+', label: 'Years in BA/Analysis' },
+      { value: '10+', label: 'Years in Digital & Web' },
       { value: 'HCI', label: 'MS Specialization' },
       { value: '6', label: 'Active Certifications' },
     ],
-    contactHeadline: "Let's connect",
+    contactHeadline: "Let's build something that converts",
     contactDescription:
-      `I care about how people actually experience the things I build. That instinct runs through everything I do, whether it's writing code, gathering requirements, or running a sprint. With a background in web development, business analysis, and a graduate focus in Human-Computer Interaction, I bring both technical skill and a genuine focus on the end user. Based in Las Vegas, open to remote.`,
+      `Based in Henderson, NV. Open to on-site and remote opportunities.`,
     floatingCards: [
-      { icon: '📋', label: 'Requirements' },
-      { icon: '🔄', label: 'Process Design' },
-      { icon: '🧩', label: 'HCI Research' },
+      { icon: '🎨', label: 'Visual Design' },
+      { icon: '💻', label: 'Front-End Dev' },
+      { icon: '📈', label: 'Conversion' },
     ],
   },
 };
