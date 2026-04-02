@@ -36,7 +36,6 @@ export const variants: Record<VariantKey, SiteVariant> = {
     stats: [
       { value: '5+', label: 'Years in BA/Analysis' },
       { value: 'HCI', label: 'MS Specialization' },
-      { value: '6', label: 'Active Certifications' },
     ],
     contactHeadline: "Let's solve a hard problem together",
     contactDescription:
@@ -124,9 +123,7 @@ export const variants: Record<VariantKey, SiteVariant> = {
     domainSkills: ['Landing Page Optimization', 'Email Campaign Design', 'WCAG Accessibility', 'Design Systems & CMS'],
     domainSkillsLabel: 'Design + Strategy',
     stats: [
-      { value: '10+', label: 'Years in Digital & Web' },
       { value: 'HCI', label: 'MS Specialization' },
-      { value: '6', label: 'Active Certifications' },
     ],
     contactHeadline: "Let's build something that converts",
     contactDescription:

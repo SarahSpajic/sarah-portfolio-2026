@@ -20,22 +20,29 @@ export default function Projects() {
             tabIndex={0}
             onKeyDown={(e) => e.key === 'Enter' && navigateTo('#/projects/rto')}
           >
-            <div className="project-showcase-header">
-              <div>
-                <h3 className="project-showcase-title">Landing Pages, Email Campaigns & Digital Brand</h3>
-                <p className="project-showcase-client">Rise To Offend Podcast</p>
+            <div className="project-showcase-split">
+              <div className="project-showcase-split-text">
+                <div className="project-showcase-header">
+                  <div>
+                    <h3 className="project-showcase-title">Landing Pages, Email Campaigns & Digital Brand</h3>
+                    <p className="project-showcase-client">Rise To Offend Podcast</p>
+                  </div>
+                  <span className="project-showcase-arrow">→</span>
+                </div>
+
+                <p className="project-showcase-description">
+                  Eight years of landing pages, email campaigns, motion graphics, and brand assets for a media brand.
+                </p>
+
+                <div className="project-showcase-tech">
+                  {rtoTechStack.map((t) => (
+                    <span key={t} className="tech-tag">{t}</span>
+                  ))}
+                </div>
               </div>
-              <span className="project-showcase-arrow">→</span>
-            </div>
-
-            <p className="project-showcase-description">
-              Eight years of landing pages, email campaigns, motion graphics, and brand assets for a media brand.
-            </p>
-
-            <div className="project-showcase-tech">
-              {rtoTechStack.map((t) => (
-                <span key={t} className="tech-tag">{t}</span>
-              ))}
+              <div className="project-showcase-split-img">
+                <img src="/rto/18513733_1845174079080366_993463804291448832_a.jpg" alt="Rise To Offend yellow logo" />
+              </div>
             </div>
           </article>
           <article
@@ -45,22 +52,29 @@ export default function Projects() {
             tabIndex={0}
             onKeyDown={(e) => e.key === 'Enter' && navigateTo('#/projects/foodfinder')}
           >
-            <div className="project-showcase-header">
-              <div>
-                <h3 className="project-showcase-title">Reducing Restaurant Decision Fatigue</h3>
-                <p className="project-showcase-client">Foodfinder · Georgia Tech CS6750</p>
+            <div className="project-showcase-split">
+              <div className="project-showcase-split-text">
+                <div className="project-showcase-header">
+                  <div>
+                    <h3 className="project-showcase-title">Reducing Restaurant Decision Fatigue</h3>
+                    <p className="project-showcase-client">Foodfinder · Georgia Tech CS6750</p>
+                  </div>
+                  <span className="project-showcase-arrow">→</span>
+                </div>
+
+                <p className="project-showcase-description">
+                  Needfinding, prototyping, and evaluation of three design alternatives for a personalized restaurant recommendation system.
+                </p>
+
+                <div className="project-showcase-tech">
+                  {foodfinderTechStack.map((t) => (
+                    <span key={t} className="tech-tag">{t}</span>
+                  ))}
+                </div>
               </div>
-              <span className="project-showcase-arrow">→</span>
-            </div>
-
-            <p className="project-showcase-description">
-              Needfinding, prototyping, and evaluation of three design alternatives for a personalized restaurant recommendation system.
-            </p>
-
-            <div className="project-showcase-tech">
-              {foodfinderTechStack.map((t) => (
-                <span key={t} className="tech-tag">{t}</span>
-              ))}
+              <div className="project-showcase-split-img">
+                <img src="/foodfinder-preview.png" alt="Foodfinder prototype showing personalized restaurant suggestions" />
+              </div>
             </div>
           </article>
 

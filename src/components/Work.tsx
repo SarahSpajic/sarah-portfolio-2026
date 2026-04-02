@@ -38,10 +38,10 @@ const experiences: Experience[] = [
     highlights: [
       'Translated Figma mockups into responsive, accessible implementations with React, TypeScript, HTML5, and CSS3',
       'Built a shared component library and design system used across multiple product teams',
+      'Integrated custom components into Adobe Experience Manager (AEM) and conducted thorough post-implementation testing',
       'Implemented WCAG 2.1 accessibility standards across web properties',
-      'Automated testing with Playwright, reducing manual QA effort',
     ],
-    skills: ['React', 'TypeScript', 'HTML5/CSS3', 'Figma', 'Design Systems', 'WCAG 2.1', 'Responsive Design', 'Playwright', 'Git'],
+    skills: ['React', 'TypeScript', 'HTML5/CSS3', 'Figma', 'Design Systems', 'AEM', 'WCAG 2.1', 'Responsive Design', 'Playwright', 'Git'],
   },
   {
     id: 'freelance',
