@@ -24,14 +24,14 @@ export default function Projects() {
               <div className="project-showcase-split-text">
                 <div className="project-showcase-header">
                   <div>
-                    <h3 className="project-showcase-title">Landing Pages, Email Campaigns & Digital Brand</h3>
+                    <h3 className="project-showcase-title">Landing Pages, Motion Graphics & Digital Brand</h3>
                     <p className="project-showcase-client">Rise To Offend Podcast</p>
                   </div>
                   <span className="project-showcase-arrow">→</span>
                 </div>
 
                 <p className="project-showcase-description">
-                  Eight years of landing pages, email campaigns, motion graphics, and brand assets for a media brand.
+                  Eight years of landing pages, motion graphics, and brand assets for a media brand.
                 </p>
 
                 <div className="project-showcase-tech">

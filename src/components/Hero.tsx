@@ -1,4 +1,5 @@
 import type { SiteVariant } from '../variants';
+import HeroScene from './HeroScene';
 
 interface HeroProps {
   variant: SiteVariant;
@@ -7,6 +8,7 @@ interface HeroProps {
 export default function Hero({ variant }: HeroProps) {
   return (
     <section className="hero" id="hero">
+      <HeroScene />
       <div className="hero-content">
         <span className="hero-label">{variant.badge}</span>
         <h1 className="hero-name">Sarah Spajic</h1>

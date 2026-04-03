@@ -113,14 +113,14 @@ export const variants: Record<VariantKey, SiteVariant> = {
     badge: 'Web Design · Front-End Development · UI/UX',
     headline: 'UX Engineer',
     description:
-      'I design and build landing pages, email campaigns, and responsive web experiences from Figma through deployment.',
+      'I design and build landing pages and responsive web experiences from Figma through deployment.',
     aboutHeadline: 'From concept to code, I own the full workflow',
     aboutP1:
       'I started in communications and business analysis, moved into front-end development building component libraries and design systems at Credit One Bank with React, TypeScript, and CSS3, and now I\'m completing an MS in Computer Science (HCI) at Georgia Tech. That arc gives me both the design eye and the technical execution to own projects end-to-end.',
     aboutP2: '',
     aboutP3: '',
     frontendSkills: ['HTML5 / CSS3 / JavaScript', 'React / TypeScript', 'Responsive Design', 'Figma to Code'],
-    domainSkills: ['Landing Page Optimization', 'Email Campaign Design', 'WCAG Accessibility', 'Design Systems & CMS'],
+    domainSkills: ['Landing Page Optimization', 'WCAG Accessibility', 'Design Systems & CMS'],
     domainSkillsLabel: 'Design + Strategy',
     stats: [
       { value: 'HCI', label: 'MS Specialization' },

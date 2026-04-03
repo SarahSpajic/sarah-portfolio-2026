@@ -18,10 +18,10 @@ const socialImages: SocialImage[] = [
   { src: '/rto/southpark.png', alt: 'South Park themed episode graphic', caption: 'Trey Parker & Matt Stone episode promo' },
 ];
 
-const techStack = ['Landing Pages', 'Email Templates', 'After Effects', 'Photoshop', 'Illustrator', 'HTML/CSS', 'Campaign Design', 'Cinema 4D'];
+const techStack = ['Landing Pages', 'Email Templates', 'After Effects', 'Photoshop', 'Illustrator', 'HTML/CSS', 'Campaign Design'];
 
 const workflow = [
-  { label: 'Tooling', text: 'After Effects for motion; Photoshop for stills and plate art; Illustrator for SVG; Cinema 4D for 3D exploration.' },
+  { label: 'Tooling', text: 'After Effects for motion; Photoshop for stills and plate art; Illustrator for SVG assets.' },
   { label: 'Structure', text: 'Episode-based promos (Springer, Bukowski, Joker) vs. campaign threads (Woodstock, ICP). Same template discipline as brand marketing: reusable layers, consistent safe zones.' },
   { label: 'Formats', text: '1080p master exports; platform-ready crops where needed.' },
 ];
@@ -34,23 +34,15 @@ export default function RTOProject({ onBack }: { onBack: () => void }) {
 
         <div className="project-detail-header">
           <span className="section-label">Project</span>
-          <h1 className="project-detail-title">Landing Pages, Email Campaigns & Digital Brand</h1>
+          <h1 className="project-detail-title">Landing Pages & Digital Brand</h1>
           <p className="project-detail-client">Rise To Offend Podcast</p>
         </div>
 
         <p className="project-detail-description">
-          Eight years owning web design, email campaigns, motion content, and brand consistency for a media brand.
+          Eight years owning web design,  motion content, and brand consistency for a podcast.
         </p>
 
-        <div className="project-detail-roles">
-          <h2>Role & scope</h2>
-          <ul className="project-detail-highlights">
-            <li><strong>Landing pages:</strong> Conversion-focused pages, iterated on layout and messaging based on engagement data.</li>
-            <li><strong>Email & campaigns:</strong> Reusable templates for email and social promotions with consistent brand voice.</li>
-            <li><strong>Motion:</strong> 1080p video promos, logo stingers, and campaign clips in After Effects.</li>
-          </ul>
-        </div>
-
+    
         {/* Motion & Video */}
         <div className="project-detail-section">
           <h2>Motion & video</h2>

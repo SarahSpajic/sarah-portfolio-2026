@@ -85,7 +85,7 @@ const experiences: Experience[] = [
     highlights: [
       'Designed and iterated on landing pages optimized for audience conversion',
       'Created reusable templates for social campaigns, email newsletters, and promotional content',
-      'Produced motion graphics and short-form video using After Effects and Cinema 4D',
+      'Produced motion graphics and short-form video using After Effects',
     ],
     skills: ['Landing Page Design', 'Email Templates', 'Campaign Graphics', 'After Effects', 'Photoshop', 'Illustrator', 'Brand Design'],
   },
